@@ -12,7 +12,7 @@ export default {
 
 <template>
   <div class="container">
-    <prova-vite/>
+    <provaVite/>
     <h1>prova</h1>
   </div>
 </template>

@@ -1,10 +1,15 @@
 <script>
 export default {
-  name: "ProvaVite"
+  name: "ProvaVite",
+  data(){
+    return{
+      appTitle: "La mia prima app con Vite"
+    }
+  }
 }
 </script>
 <template>
-  <h2>PROVA</h2>
+  <h2>{{appTitle}}</h2>
 </template>
 
 
